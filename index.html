@@ -26,64 +26,7 @@
 </head>
 
 <body>
-  <!-- header -->
-  <header class="container header">
-    <div class="row row-cols-1 row-cols-sm-3">
-      <div class="col text-start">
-        <a class="icon-link text-secondary text-decoration-none" href="#">
-          <i class="bi-telephone-fill"></i>801-356-6560
-        </a>
-      </div>
-      <div class="col text-start">
-        <a class="icon-link text-secondary text-decoration-none" href="#">
-          <i class="bi-envelope-fill"></i>mail{at}colorquickprinting.net
-        </a>
-      </div>
-      <div class="col text-end">
-        <a class="icon-link text-secondary" href="#">
-          <i class="bi-instagram"></i>
-        </a>
-        <a class="icon-link text-secondary" href="#">
-          <i class="bi-facebook"></i>
-        </a>
-        <a class="icon-link text-secondary" href="#">
-          <i class="bi-twitter"></i>
-        </a>
-        <a class="icon text-secondary" href="#">
-          <i class="bi-youtube"></i>
-        </a>
-      </div>
-    </div>
-  </header>
-  <!-- /header -->
-  <!-- navigation -->
-  <nav class="navbar navbar-expand-md text-center p-3">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">
-        <img loading="prelaod" decoding="async" class="img-fluid" width="200" src="images/logo.webp"
-          alt="Color Quick" />
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 nav-underline">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- /navigation -->
-
+<header id="header"></header>
   <!-- Main Body -->
   <div class="container">
     <div class="row row-cols-1 row-cols-sm-2">
@@ -165,25 +108,24 @@
   <!-- /Main Body -->
 
   <!-- footer -->
-  <footer class="container-fluid bg-dark text-light p-3">
-    <div class="container">
-      <p>Color Quick Copyright 2000-<span id="current-year">2025</span> © All rights reserved.</p>
-    </div>
-  </footer>
+  <div id="footer">
+  </div>
   <!-- /footer -->
 
 
   <!-- # JS Plugins -->
-  <!-- <script src="plugins/jquery/jquery.min.js"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script>
+    $(function () {
+      $("#header").load("header.html");
+      $("#footer").load("footer.html");
+    });
+  </script>
   <!-- Main Script -->
   <script src="js/script.js"></script>
-  <script>
-    document.getElementById('current-year').textContent = new Date().getFullYear();
-  </script>
 </body>
 
 </html>
