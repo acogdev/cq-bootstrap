@@ -41,42 +41,48 @@
           <hr class="hr-blury" />
           <!-- verbage -->
           <p class="lead">Invitations are what we do best!</p>
-          <p>Invitations // Announcements // RSVP and other enclosures // Thank you’s // Envelopes // Save the dates //
+          <p>Invitations // Announcements // RSVP and other enclosures // Thank you's // Envelopes // Save the dates //
             Cake Toppers // Laser etched personalized gifts</p>
 
           <!-- gallery -->
           <div class="row">
             <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-              <img src="images/weddings/flat_invite.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
-
-              <img src="images/weddings/invitelayer.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
-              <img src="images/weddings/acrylic_invitation.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
-
-              <img src="images/weddings/inserts.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
+              <img src="images/weddings/flat_invite.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="A Flat Wedding Announcement" />
+              <img src="images/weddings/invitelayer.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="An Invite with layers" />
+              <img src="images/weddings/acrylic_invitation.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Acrylic Invite" />
+              <img src="images/weddings/inserts.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Invitation Inserts" />
             </div>
-
             <div class="col-lg-4 mb-4 mb-lg-0">
               <img src="images/weddings/invite2sides.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
-
               <img src="images/weddings/Pocket_invite.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
               <img src="images/weddings/envelopes.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
-
               <img src="images/weddings/savethedate.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
             </div>
-
             <div class="col-lg-4 mb-4 mb-lg-0">
               <img src="images/weddings/z_fold.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
-
               <img src="images/weddings/laser_invte.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
               <img src="images/weddings/postcard_thank.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
-
               <img src="images/weddings/menu.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="..." />
             </div>
           </div>
           <!-- /gallery -->
 
           <!-- carousell in modal -->
-
+          <div class="modal fade" id="image-modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="modal-title">title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img class="w-100" src="" />
+                </div>
+              </div>
+            </div>
+          </div>
 
 
         </div>
@@ -104,6 +110,19 @@
   </script>
   <!-- Main Script -->
   <script src="js/script.js"></script>
+
+  <script>
+    $("#image-modal").on("shown.bs.modal", function (event) {
+      const target = $(event.relatedTarget)
+      const image = target.find("img")
+      const iurl = target.children('img').attr('src')
+      const ialt = target.children('img').attr('alt')
+      console.log(ialt)
+      $(this).find('.modal-body img').attr('src', iurl)
+      $(this).find('.modal-title').text(ialt)
+    });
+
+  </script>
 
 </body>
 
