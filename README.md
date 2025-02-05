@@ -2,7 +2,7 @@ SASS to CSS
 ===========
 install sass with `npm install -g sass`
 install bootstrap with `npm install bootstrap`
-run `sass scss/custom.scss css/bootstrap.css`
+run `sass -q scss/custom.scss css/bootstrap.css`
 
 Run dev server
 ==============

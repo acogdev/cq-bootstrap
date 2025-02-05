@@ -16,11 +16,18 @@ $theme-colors: (
     "danger":     #f51169,
 );
 
+$body-emphasis-color: #dd3333;
+
+
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/variables-dark";
 @import "../node_modules/bootstrap/scss/maps";
 @import "../node_modules/bootstrap/scss/mixins";
+
+
+
+
 @import "../node_modules/bootstrap/scss/utilities";
 // 4. Include any optional Bootstrap components as you like
 @import "../node_modules/bootstrap/scss/root";
