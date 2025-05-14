@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Color Quick</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Color Quick</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;why-you-should-work-with-us&#34;&gt;Why you should work with us&lt;/h2&gt;&#xA;&lt;p&gt;Budget Friendly // Work one-on-one // Great paper // Experience + Resources // We&amp;rsquo;re nice people // Purchase only what you need // We make it easy // Attention to details&lt;/p&gt;&#xA;&lt;h2 id=&#34;who-we-are&#34;&gt;Who we are&lt;/h2&gt;&#xA;&lt;p&gt;Color Quick // Est. 2000 // Pete + LeeAnn // Husband + Wife duo // Mixing New + Vintage equipment // Ink running in our veins // Reaching beyond expectations&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
