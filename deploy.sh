@@ -4,7 +4,7 @@ set -e
 # Only allow specific commands
 case "$SSH_ORIGINAL_COMMAND" in
     "deploy")
-	cd /home/jake/traefik/cq-bootstrap
+	cd ~/traefik/cq-bootstrap
         git pull origin main
         docker compose rm -f -s cq
         docker compose up -d
