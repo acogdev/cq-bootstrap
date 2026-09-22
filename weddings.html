@@ -271,7 +271,6 @@
               <div class="modal-dialog" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="modal-title">title</h5>
                     <button
                       type="button"
                       class="btn-close"
@@ -280,7 +279,7 @@
                     ></button>
                   </div>
                   <div class="modal-body">
-                    <img class="w-100" src="" />
+                    <img class="w-100" alt="" />
                   </div>
                 </div>
               </div>
@@ -328,9 +327,7 @@
         const target = $(event.relatedTarget);
         const image = target.find("img");
         const iurl = target.children("img").attr("src");
-        const ialt = target.children("img").attr("alt");
         $(this).find(".modal-body img").attr("src", iurl);
-        $(this).find(".modal-title").text(ialt);
       });
     </script>
   </body>
