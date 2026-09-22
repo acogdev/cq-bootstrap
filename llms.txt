@@ -1,0 +1,16 @@
+# Color Quick
+> Family-owned print shop in Provo, Utah, offering digital printing, wedding stationery, business products, life-event printing, and custom laser engraving.
+
+## Key pages
+- [Home](https://colorquickprinting.net/): Color Quick's printing, design, and custom product services
+- [Products & Services](https://colorquickprinting.net/products.html): Digital printing, wedding stationery, business materials, life-event printing, and laser engraving
+- [Wedding Shop](https://colorquickprinting.net/weddings.html): Invitations, save-the-dates, and laser-etched gifts
+- [Business printing](https://colorquickprinting.net/business.html): Printed materials and products for businesses
+- [Laser cutting & etching](https://colorquickprinting.net/laser.html): Custom laser cutting and engraving services
+- [Life Events](https://colorquickprinting.net/life-events.html): Custom invitations, announcements, thank-you cards, and event printing
+- [Pricing](https://colorquickprinting.net/pricing.html): Service and product pricing
+- [About](https://colorquickprinting.net/about.html): Learn more about Color Quick
+- [Contact](https://colorquickprinting.net/contact.html): 1018 South 350 East, Provo, UT 84606; 801-356-6560; colorquickprinting@gmail.com
+
+## Business information
+- Hours: Monday-Friday, 10:00 AM-5:00 PM
