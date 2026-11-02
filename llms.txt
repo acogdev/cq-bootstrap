@@ -1,9 +1,16 @@
 # Color Quick
-> Family-owned print shop in Provo, Utah, offering digital printing, wedding stationery, business products, life-event printing, and custom laser engraving.
+> Family-owned print shop in Provo, Utah, offering promotional products, digital printing, wedding stationery, business products, life-event printing, and custom laser engraving.
 
 ## Key pages
 - [Home](https://colorquickprinting.net/): Color Quick's printing, design, and custom product services
-- [Products & Services](https://colorquickprinting.net/products.html): Digital printing, wedding stationery, business materials, life-event printing, and laser engraving
+- [Products & Services](https://colorquickprinting.net/products.html): Digital printing, promotional products, wedding stationery, business materials, life-event printing, and laser engraving
+- [Promotional Products](https://colorquickprinting.net/promotional-products.html): Promotional product galleries by category
+- [Tumblers and Mugs](https://colorquickprinting.net/promotional-tumblers-mugs.html): Custom-decorated tumblers, mugs, cups, thermoses, shot glasses, and wine glasses
+- [Wearables](https://colorquickprinting.net/promotional-wearables.html): Custom-decorated hard hats, sunglasses, shoes, and bags
+- [Sports and Recreation](https://colorquickprinting.net/promotional-sports-recreation.html): Custom-decorated balls, golf equipment, bats, frisbees, paddles, poker chips, and drones
+- [Electronics](https://colorquickprinting.net/promotional-electronics.html): Custom-decorated headphones, earbuds, tablets, projectors, and power supplies
+- [Oversized](https://colorquickprinting.net/promotional-oversized.html): Custom-decorated coolers, carry-on luggage, speakers, and longboards
+- [Miscellaneous](https://colorquickprinting.net/promotional-miscellaneous.html): Custom decoration for a wide range of other items
 - [Wedding Shop](https://colorquickprinting.net/weddings.html): Invitations, save-the-dates, and laser-etched gifts
 - [Business printing](https://colorquickprinting.net/business.html): Printed materials and products for businesses
 - [Laser cutting & etching](https://colorquickprinting.net/laser.html): Custom laser cutting and engraving services
