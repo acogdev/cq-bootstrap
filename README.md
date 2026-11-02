@@ -25,3 +25,9 @@ Add server IP to repo secrets for use by action
 Add following to '~/.ssh/authorized_keys` on server:
 
 `command="path_to_deployment_script",no-port-forwarding,no-X11-forwarding,no-agent-forwarding,no-pty ssh-ed25519 AAA...[public key]`
+
+
+
+TODO
+====
+- Optimize image loading for large galleries have smaller thumbnails and only pull full image when user clicks to see the larger image in the gallery
